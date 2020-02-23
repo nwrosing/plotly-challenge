@@ -43,7 +43,7 @@ function buildCharts(sample) {
 
     var data = [bubble];
     var layout = {
-      title: "Belly Button Bacteria",
+      title: "Belly Button Bacteria Diversity",
       xaxis: {title: "OTU ID"}
     };
     Plotly.newPlot("bubble", data, layout);
