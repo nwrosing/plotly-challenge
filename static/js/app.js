@@ -51,7 +51,7 @@ function buildCharts(sample) {
     // @TODO: Build a Pie Chart
     // HINT: You will need to use slice() to grab the top 10 sample_values,
     // otu_ids, and labels (10 each).
-    d3.json(plotData).then(function(data){
+    d3.json(samplePlotData).then(function(data){
       var values = data.sample_values.slice(0,10);
       var labels = data.otu_ids.slice(0,10);
       var display = data.otu_labels.slice(0,10);
