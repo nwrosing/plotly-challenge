@@ -53,17 +53,17 @@ function buildCharts(sample) {
     // @TODO: Build a Pie Chart
     // HINT: You will need to use slice() to grab the top 10 sample_values,
     // otu_ids, and labels (10 each).
-    let pieData = [
+    var pieData = [
       {
-        values: sample_values.slice(0, 10),
-        labels: otu_ids.slice(0, 10),
-        hovertext: otu_labels.slice(0, 10),
+        values: sample_values.slice(0, 9),
+        labels: otu_ids.slice(0, 9),
+        hovertext: otu_labels.slice(0, 9),
         hoverinfo: "hovertext",
         type: "pie"
       }
     ];
     
-    let pieLayout = {
+    var pieLayout = {
       margin: { t: 0, l: 0 }
     };
 
