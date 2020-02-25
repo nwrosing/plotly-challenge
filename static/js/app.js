@@ -17,7 +17,7 @@ function buildMetadata(sample) {
     // BONUS: Build the Gauge Chart
       buildGauge(data.WFREQ);
 })
-}
+};
 
 function buildCharts(sample) {
   // @TODO: Use `d3.json` to fetch the sample data for the plots
@@ -67,9 +67,9 @@ function buildCharts(sample) {
       margin: { t: 0, l: 0 }
     };
 
-    Plotly.plot("pie", pieData, pieLayout)
+    Plotly.plot("pie", pieData, pieLayout);
 })
-}
+};
 
 
 function init() {
